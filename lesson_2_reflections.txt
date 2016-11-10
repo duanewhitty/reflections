@@ -20,6 +20,7 @@ number from say 1.x to 2.x for instance.  Also branches would help with experime
 features or also if you wanted to give multiple developers their own branch.
 
 How do the diagrams help you visualize the branch structure?
+By showing in explicit terms how nodes (commits) are related.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
