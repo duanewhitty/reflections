@@ -15,6 +15,9 @@ the files in your working directory and the files in the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+I would branch whenever I have a major set of changes, increasing the major version
+number from say 1.x to 2.x for instance.  Also branches would help with experimental
+features or also if you wanted to give multiple developers their own branch.
 
 How do the diagrams help you visualize the branch structure?
 
