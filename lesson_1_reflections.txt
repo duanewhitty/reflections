@@ -1,0 +1,33 @@
+Used diff -u to find a typo
+w might using version control make you more confident to make changes that could break something?
+The format is diff -u oldfile newfile
+
+Having easy access to the entire history of a file can make you more
+efficient because 1) you don't have to be afraid to make changes; 2)
+you can start completely from scratch and still get back what you had;
+3) you can try different techniques and see what worked best.
+
+Manual commits make more sense because you can group changes into 
+logical chunks.  If the commit is automatic you may not lose work
+but you also will likely have times when your code is not functional
+and you will have too many or too few commits, probably too many and
+with unrelated changes.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?  Because when you are coding sometimes features 
+are spread across multiple files even though they are very tightly
+coupled.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log shows the commit notes or messages for each change and git diff shows
+what the difference is between the old file and the new file, the line numbers of
+the changes, and how many lines were deleted and how many lines were added.
+
+How might using version control make you more confident to make changes that could break something?
+You can be confident that you can always get back to your last working version
+as long as you made sure it was committed before you made any changes to it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+As an offline and online source code repository and version control system.
+
