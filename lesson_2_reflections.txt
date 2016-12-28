@@ -28,7 +28,11 @@ By showing in explicit terms how nodes (commits) are related.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging two branches together is that the commits from both branches are
+reachable from the "tip" of the merged branch.  The merged branch contains the commits
+from both branches.  We represent it in the diagram as we do to emphasize that the
+merged branches form one branch which contain all previous commits from both branches.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
