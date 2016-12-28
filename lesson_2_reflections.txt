@@ -19,6 +19,10 @@ I would branch whenever I have a major set of changes, increasing the major vers
 number from say 1.x to 2.x for instance.  Also branches would help with experimental
 features or also if you wanted to give multiple developers their own branch.
 
+Note to self: It has been a while since I've worked with Git.  I don't feel as though
+I have remembered the commands really well.  It doesn't feel like I have really
+integrated the system into my working knowledge.
+
 How do the diagrams help you visualize the branch structure?
 By showing in explicit terms how nodes (commits) are related.
 
