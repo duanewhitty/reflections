@@ -13,6 +13,13 @@ In many ways the same logic applies to pulls as pushes.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+A fork is a clone of a repository that is executed on the github servers. The
+term clone is when you make a copy of a repository and is referred to when the
+copy is local. A branch is a commit that is labelled.  If you make a change to
+a previous commit and don't label it as a branch that change (commit) will be
+unreachable unless you save the commit id.  By creating a new branch you are 
+telling git that you want it to remember that commit id and put an easy to use
+name on it for later use.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
