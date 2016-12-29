@@ -23,6 +23,11 @@ name on it for later use.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
+It makes it easy(ier) to merge the changes on the remote with your local 
+changes.  The copy of the last known state of the remote can be brought 
+up-to-date with the current state of the remote.  Then you can merge your
+local changes into that and bring your local branch into sync with the 
+corresponding remote branch.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
