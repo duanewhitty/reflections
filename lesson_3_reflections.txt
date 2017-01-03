@@ -31,6 +31,14 @@ corresponding remote branch.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
+There would be a few options for collaborating without using Git or GitHup.  The
+most naive would be trying to use email with perhaps file upload, adding a
+sequence number to the file.  There are also platforms like DropBox and Google
+Drive that will keep revision information.  DropBox would probably be more
+appropriate for code than Google Drive because of DropBox's capability to
+have a local copy.  These platforms don't have the version comparison and
+logging abilities of Git though.  Also, you don't get the branch and release
+management facilities of Git and GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
