@@ -1,19 +1,22 @@
-When would you want to use a remote repository rather than keeping all your work
+Q. When would you want to use a remote repository rather than keeping all your work
 local?
-I would use a remote repository when I want to share my work with other people.
+
+A. I would use a remote repository when I want to share my work with other people.
 It is also a good way to backup the work I've done in case my local copy is
 lost or damaged.
 
-Why might you want to always pull changes manually rather than having Git
+Q. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-There might be changes that I'm working on that could conflict with commits
+
+A. There might be changes that I'm working on that could conflict with commits
 in the repository if a merge was attempted.  I might not be ready to try to
 resolve the conflict because my work might not be as far along as I want.
 In many ways the same logic applies to pulls as pushes.
 
-Describe the differences between forks, clones, and branches.  When would you
+Q. Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-A fork is a clone of a repository that is executed on the github servers. The
+
+A. A fork is a clone of a repository that is executed on the github servers. The
 term clone is when you make a copy of a repository and is referred to when the
 copy is local. A branch is a commit that is labelled.  If you make a change to
 a previous commit and don't label it as a branch that change (commit) will be
@@ -21,17 +24,19 @@ unreachable unless you save the commit id.  By creating a new branch you are
 telling git that you want it to remember that commit id and put an easy to use
 name on it for later use.
 
-What is the benefit of having a copy of the last known state of the remote
+Q. What is the benefit of having a copy of the last known state of the remote
 stored locally?
-It makes it easy(ier) to merge the changes on the remote with your local 
+
+A. It makes it easy(ier) to merge the changes on the remote with your local 
 changes.  The copy of the last known state of the remote can be brought 
 up-to-date with the current state of the remote.  Then you can merge your
 local changes into that and bring your local branch into sync with the 
 corresponding remote branch.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+Q. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-There would be a few options for collaborating without using Git or GitHup.  The
+
+A. There would be a few options for collaborating without using Git or GitHup.  The
 most naive would be trying to use email with perhaps file upload, adding a
 sequence number to the file.  There are also platforms like DropBox and Google
 Drive that will keep revision information.  DropBox would probably be more
@@ -40,9 +45,10 @@ have a local copy.  These platforms don't have the version comparison and
 logging abilities of Git though.  Also, you don't get the branch and release
 management facilities of Git and GitHub.
 
-When would you want to make changes in a separate branch rather than directly in
+Q. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-I would have multiple branches for a few reasons: An important reason would be
+
+A. I would have multiple branches for a few reasons: An important reason would be
 if I wanted to have code running in production for a product that was still 
 developed and/or maintained.  In this case I would probably have at least a
 dev branch and a qa branch.  Probably also a branch or possibly even multiple
