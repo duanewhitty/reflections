@@ -42,3 +42,13 @@ management facilities of Git and GitHub.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+I would have multiple branches for a few reasons: An important reason would be
+if I wanted to have code running in production for a product that was still 
+developed and/or maintained.  In this case I would probably have at least a
+dev branch and a qa branch.  Probably also a branch or possibly even multiple
+branches for bug fixes and security fixes.  Another reason I would probably have
+multiple branches is if I had multiple developers working on the project.  By using
+multiple branches I can make sure the master branch always compiles and runs.  New 
+features get added on dev, possibly after being merged from individual developers
+branches.  Working on only the master branch might be okay for one person working 
+on a personal project but even here branches would help to encourage experimentation.
